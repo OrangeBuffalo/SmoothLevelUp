@@ -1,5 +1,5 @@
 ﻿<Module>
-  <Name value="Smooth Level Up a Bannerlord Mod"/>
+  <Name value="Smooth Level Up"/>
   <Id value="SmoothLevelUp"/>
   <Version value="v1.0.0"/>
   <SingleplayerModule value="true"/>
@@ -10,11 +10,12 @@
     <DependedModule Id="Sandbox"/>
     <DependedModule Id="StoryMode" />
 	<DependedModule Id="Bannerlord.Harmony" />
+	<DependedModule Id="Bannerlord.MBOptionScreen" />
   </DependedModules>
   <SubModules>
     <SubModule>
-      <Name value="LevelUp"/>
-      <DLLName value="LevelUp.dll"/>
+      <Name value="SmoothLevelUp"/>
+      <DLLName value="SmoothLevelUp.dll"/>
       <SubModuleClassType value="SmoothLevelUp.SmoothLevelUp_SubModule"/>
       <Tags>
         <Tag key="DedicatedServerType" value="none" />
