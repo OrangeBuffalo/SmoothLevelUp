@@ -22,7 +22,7 @@ namespace SmoothLevelUp.Patches
                     break;
                 case "Slower":
                     a = 1000f;
-                    b = 1.825f;
+                    b = 1.81f;
                     break;
                 case "Faster":
                     a = 250f;
